@@ -1,0 +1,15 @@
+﻿body {
+    background-color:#de3535
+}
+
+a{
+ color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    background-color:white;
+}

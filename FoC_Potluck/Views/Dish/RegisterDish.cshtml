@@ -7,10 +7,10 @@
 
 <form method="post" action="/dish/confirmation/">
     <span>@ViewBag.ErrorMessage</span><br/>
-    Your Name: <input type="text" name="name"/><br/><br/>
+    Your Name: <input type="text" name="name" required/><br/><br/>
     Phone Number: <input type="text" placeholder="XXX-XXX-XXXX" name="phone"/><br/>
     <span class="text-danger">@ViewBag.DishNameMessage</span><br/>
-    Dish Name: <input type="text" name="dishname"/><br/><br/>
+    Dish Name: <input type="text" name="dishname" required/><br/><br/>
     Dish Description: <input type="text" name="dishDesc"/><br/><br/>
     Category:
     <select name="category" required> 
