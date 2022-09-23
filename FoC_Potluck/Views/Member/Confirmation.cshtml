@@ -1,0 +1,16 @@
+﻿@model Member
+
+@{
+    ViewData["Title"] = "Confirmation";
+}
+
+<h1>Success!</h1>
+
+You are now registered to attend this years potluck!
+
+<h2>Confirmation Details</h2>
+
+Name: @Model.FirstName @Model.LastName <br/>
+Email: @Model.Email<br/>
+Date Attending: @Model.Date<br/>
+<span>@ViewBag.Guest</span>

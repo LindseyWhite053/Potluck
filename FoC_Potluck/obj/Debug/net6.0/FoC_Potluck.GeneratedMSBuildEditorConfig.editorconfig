@@ -15,12 +15,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Lwhite5\Desktop\Projects\Assessment6_FoCPotluck\FoC_Potluck
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Lwhite5/Desktop/Projects/Assessment6_FoCPotluck/FoC_Potluck/Views/Dish/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lwhite5/Desktop/Projects/Assessment6_FoCPotluck/FoC_Potluck/Views/Dish/RegisterDish.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxSZWdpc3RlckRpc2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lwhite5/Desktop/Projects/Assessment6_FoCPotluck/FoC_Potluck/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lwhite5/Desktop/Projects/Assessment6_FoCPotluck/FoC_Potluck/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lwhite5/Desktop/Projects/Assessment6_FoCPotluck/FoC_Potluck/Views/Member/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lwhite5/Desktop/Projects/Assessment6_FoCPotluck/FoC_Potluck/Views/Member/RSVPForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXFJTVlBGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lwhite5/Desktop/Projects/Assessment6_FoCPotluck/FoC_Potluck/Views/Shared/Error.cshtml]
