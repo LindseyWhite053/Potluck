@@ -4,11 +4,16 @@
     ViewData["Title"] = "Confirmation";
 }
 
-<h1>Thank you @Model.Name! </h1>
+<section class="text-center">
+    <h1>Thank you @Model.Name! </h1>
 
-<h2>You have registered your dish with the following information:</h2>
+    <h2> You have registered your dish with the following information:</h2>
 
-Phone Number: @Model.Phone<br/>
-Dish: @Model.DishName<br/>
-@ViewBag.Description<br/>
-Category: @Model.Category<br/>
+    <div>
+        Phone Number: @Model.Phone<br/>
+        Dish: @Model.DishName<br/>
+        @ViewBag.Description<br/>
+        Category: @Model.Category<br/>
+    </div>
+
+</section>

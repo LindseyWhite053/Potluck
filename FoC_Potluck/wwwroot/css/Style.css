@@ -1,15 +1,49 @@
 ﻿body {
-    background-color:#77c24f
+    background-image: url('/images/Spread.jpg');
+    background position: center;
+    background-repeat: no-repeat;
+
 }
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    border-bottom: 3px solid black;
+}
+
 
 a{
  color: black;
 }
 
 a:hover {
-    color: white;
+    color: red;
+}
+
+section {
+    background-color: white;
+    border-radius: 25px;
+    padding: 5%;
+    width:75%;
+    height:100%;
+}
+
+flexbox-container {
+    display: flex;
+    justify-content: center;
 }
 
 footer {
     background-color:white;
+}
+
+@media only screen and (max-width:425px) {
+    section {
+        padding: 2%;
+        width: 90%;
+    }
 }

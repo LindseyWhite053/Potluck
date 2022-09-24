@@ -3,25 +3,37 @@
     ViewData["Title"] = "RegisterDish";
 }
 
-<h1>Register Dish</h1>
+<section>
+    <h1 class="text-center">Register Dish</h1>
 
-<form method="post" action="/dish/confirmation/">
-    <span>@ViewBag.ErrorMessage</span><br/>
-    Your Name: <input type="text" name="name" required/><br/><br/>
-    Phone Number: <input type="text" placeholder="XXX-XXX-XXXX" name="phone"/><br/>
-    <span class="text-danger">@ViewBag.DishNameMessage</span><br/>
-    Dish Name: <input type="text" name="dishname" required/><br/><br/>
-    Dish Description: <input type="text" name="dishDesc"/><br/><br/>
-    Category:
-    <select name="category" required> 
-        <option></option>
-        <option>Appetizer</option>
-        <option>Salad</option>
-        <option>Main</option>
-        <option>Dessert</option>
-        <option>Beverage</option>
-    </select> <br/><br/>
-    <input type="submit"/>
-</form>
+    <form class="row text-center" method="post" action="/dish/confirmation/">
+        <span>@ViewBag.ErrorMessage</span><br/>
+
+        Your Name: <input type="text" name="name" required/><br/><br/>
+
+        Phone Number: <input type="text" placeholder="XXX-XXX-XXXX" name="phone"/><br/>
+
+        <span class="text-danger">@ViewBag.DishNameMessage</span><br/>
+        Dish Name: <input type="text" name="dishname" required/><br/><br/>
+
+        Dish Description: <input type="text" name="dishDesc"/><br/><br/>
+
+        Category:
+        <select name="category" required> 
+            <option></option>
+            <option>Appetizer</option>
+            <option>Salad</option>
+            <option>Main</option>
+            <option>Dessert</option>
+            <option>Beverage</option>
+        </select> 
+        <div>
+            <br/><br/>
+        </div>
+
+        <input type="submit"/>
+    </form>
+</section>
+
 
 

@@ -3,23 +3,36 @@
     ViewData["Title"] = "RSVPForm";
 }
 
-<h1>RSVP </h1>
+<section>
+    <h1 class="text-center">RSVP </h1>
 
-<form method="post" action="/member/confirmation/">
+    <form class="text-center row" method="post" action="/member/confirmation/">
     
-    <span>@ViewBag.ErrorMessage</span><br/>
-    <span class="text-danger">@ViewBag.FirstNameMessage</span><br/>
-    First Name*: <input type="text" name="firstName" required/> <br/><br/>
-    Last Name*: <input type="text" name="lastName" required/><br/>
-    <span class="text-danger">@ViewBag.EmailMessage</span> <br/>
-    Email*: <input type="text" name="email" required/><br/><br/>
-    Date Attending*: 
-    <select name="date" required>
-        <option></option>
-        <option value="Monday Oct. 3rd 2022">Monday Oct. 3rd</option>
-        <option value="Wednesday Oct. 5th 2022">Wednesday Oct. 5th</option>
-        <option value="Friday Oct. 7th 2022">Friday Oct. 7th</option>
-    </select><br/><br/>
-    Guest(optional): <input type="text" name="guest"/> <br/><br/>
-    <input type="submit" value="Register"/>
-</form>
+        <span>@ViewBag.ErrorMessage</span><br/>
+
+        <span class="text-danger">@ViewBag.FirstNameMessage</span><br/>
+
+        First Name*: <input type="text" name="firstName" required/> <br/><br/>
+
+        Last Name*: <input type="text" name="lastName" required/><br/>
+
+        <span class="text-danger">@ViewBag.EmailMessage</span> <br/>
+        Email*: <input type="text" name="email" required/><br/><br/>
+
+        Date Attending*: 
+        <select name="date" required>
+            <option></option>
+            <option value="Monday Oct. 3rd 2022">Monday Oct. 3rd</option>
+            <option value="Wednesday Oct. 5th 2022">Wednesday Oct. 5th</option>
+            <option value="Friday Oct. 7th 2022">Friday Oct. 7th</option>
+        </select><br/><br/>
+
+        Guest(optional): <input type="text" name="guest"/>  
+        <div>
+            <br/><br/>
+        </div>
+        
+        <input type="submit" value="Register"/>
+    </form>
+</section>
+

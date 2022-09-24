@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mhjlz5b094DHCXx2YWWYvC5eEefc08HDl/w1HewRn6M=",
+  "Hash": "ktgTeFwgjBFAr1Rh5oXvRALF6QRBmKKPXhxgw2hdCHI=",
   "Source": "FoC_Potluck",
   "BasePath": "_content/FoC_Potluck",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Lwhite5\\Desktop\\Projects\\Assessment6_FoCPotluck\\FoC_Potluck\\wwwroot\\images\\Spread.jpg",
+      "SourceId": "FoC_Potluck",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lwhite5\\Desktop\\Projects\\Assessment6_FoCPotluck\\FoC_Potluck\\wwwroot\\",
+      "BasePath": "_content/FoC_Potluck",
+      "RelativePath": "images/Spread.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Spread.jpg"
     },
     {
       "Identity": "C:\\Users\\Lwhite5\\Desktop\\Projects\\Assessment6_FoCPotluck\\FoC_Potluck\\wwwroot\\js\\site.js",
